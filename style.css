@@ -1,0 +1,392 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    font-family:Barlow, Barlow;
+    width: 100%;
+    margin: 0 0 0 Auto;
+}
+
+.header{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    display:flex;
+    flex-direction: row;  
+}
+
+.ball{
+    padding-left: 10px;
+
+}
+
+.about-1, .dnl{
+    text-decoration: none;
+    padding: 12px 25px 12px 25px;
+    color: black;  
+}
+
+.dnl{
+    background-color: rgb(38, 202, 38);
+    border-radius: 25px;
+}
+
+
+.about-1{
+    padding-right: 20px;
+}
+
+.up{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 12px;
+}
+
+
+.container{
+    width: 100%;
+    position: relative;
+    background: rgb(51, 107, 180);
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-bottom: -450px;
+}
+
+@media (min-width: 720px) {
+    .container{
+        flex-direction: row;
+        align-items: flex-start;
+        padding-top: 2%;
+}}
+
+h1{
+    color: white;
+    font-size: 62px;
+    font-weight: 700; 
+    text-align: center;
+    width: 60%; 
+    line-height: 0.9; 
+}
+
+h4{ color: white;
+    font-size: 14px;
+    font-weight: 150;
+    width: 70%;
+    text-emphasis: none;
+    text-align: center;
+    margin-top: -35px;
+}
+
+
+
+@media (min-width: 720px) {
+    h1, h4{
+        text-align: left;     
+} 
+h1{
+    font-size: 70px;
+    margin-left:-17%;
+}
+h4{
+    font-size: 20px;
+    margin-left: -5%;
+}}
+
+.main{
+    position: relative;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    color: white;
+}
+
+@media (min-width: 720px) {
+    .main{
+        margin-top: 3%;
+}}
+
+.look{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new{
+    display:flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+
+
+.phone{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.screen-1{
+    height:700px;
+}
+
+@media (min-width: 720px) {
+    .screen-1{ height: 900px;    
+}}
+
+.b{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.photos{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(229, 242, 247);
+    padding-top: 10%;
+    padding-bottom: 15%;
+
+    
+}
+
+@media (min-width: 720px) {
+    .photos{
+        flex-direction: row;  
+        justify-content: center;
+
+       
+}}
+
+/* .step{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+} */
+
+
+.one{
+   
+    /* display:flex;
+    flex-direction: column;
+    justify-content: center;  */
+    height: 280px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+@media (min-width: 720px) {
+    .one{
+        margin-right: 30px; 
+       
+}}
+
+h2, p{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h2{
+    color:rgb(175, 31, 31);
+    font-size: 40px;
+    opacity: 0.9;
+}
+p{
+    padding-left: 30px;
+    width: 90%;
+    font-size: 14px;
+}
+
+@media (min-width: 720px) {
+    .one{ height: 200px;
+        width: 80%;
+        margin-left:50px;     
+} p{
+    width: 400px;
+   padding-left:30px;
+} 
+ h2{
+font-size: 50px;
+
+ }}
+
+ @media (min-width: 720px) {
+    .new-1{  margin-left:-300px;
+    }}
+
+.blue{
+    position: relative;
+    background: rgb(51, 107, 180);
+  margin-top: -50px;
+  padding-top: 25px;
+  padding-bottom: 60px;
+}
+
+@media (min-width: 720px) {
+    .blue{  margin-top: -380px;
+    }
+.dhl-2{
+    margin-left: 10%
+}}
+
+h3{
+    font-size: 40px;
+    color: white;
+    width: 80%;
+    text-align: center;
+    margin-left: 8%;
+    margin-bottom: 10px;
+    
+}
+
+h3+p{
+    color: white;
+    font-size: 15px;
+    width: 75%;
+    text-align: center;
+    margin-left: 8%;
+    margin-bottom: 25px;
+}
+
+.dhl-2{
+    margin-left: 30%;
+}
+@media (min-width: 720px) {
+.dhl-2{
+    margin-left: 55%;  
+}
+h3+p{
+    margin-left: 51%;
+    width: 40%;
+    text-align: left;
+}
+h3{
+    font-size: 45px;
+    margin-left: 32%
+}}
+
+.red{
+    position:relative;
+    background: lightcoral;
+    padding-top: 15%;
+    padding-bottom: 25%;
+    display:flex;
+    flex-direction: column;
+}
+
+@media (min-width: 720px) {
+    .red{  flex-direction: row;
+     padding-top: 5%;
+     padding-bottom: 5%;
+}}
+
+.lorem{
+    color: white ;
+}
+@media (min-width: 720px) {
+    .lorem{ width: 78%;
+        text-align: left;
+        padding-left: 80px;
+        padding-right: -110px;
+       
+}}
+
+input[type="email"]{
+    position:relative;
+    width: 80%;
+    margin-left: 9%;
+    height: 57px;
+    padding-left: 20px;
+    border-radius: 30px;
+    border-style:none; 
+}
+
+@media (min-width: 720px) {
+    input[type="email"]{ 
+        margin-left: -60% ;
+        width: 280%;
+}}
+
+
+.subscribe{
+    position: relative;
+    margin-left: 57%;
+    /* padding-top: 50px; */
+    
+}
+#subscribe{
+    position: relative;
+    margin-top: -38px;
+}
+
+@media (min-width: 720px) {
+    #subscribe{ padding-left: 142%;
+}}
+
+.footer{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+}
+
+@media (min-width: 720px) {
+    .footer{ flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+}
+.copy{
+    margin-right: 40%;
+}}
+
+h6{
+    font-size: 15px;
+    font-weight: 100;
+    opacity: 0.8;
+    margin-left: 10%;
+}
+
+.copy{
+    width:100%;
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: -10px;
+}
+
+.navig{
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    margin-left: 8%;
+    margin-top: -25px;   
+}
+
+@media (min-width: 720px) {
+    .navig{ 
+        margin-top: -10px;
+}}
+
+.home, .ab{
+    font-size: 15px;
+    padding-left: 12px;
+    text-decoration: none;
+    color: black;
+    opacity: 0.9;
+}
+
+.dnow{
+    width: 150px
+}
